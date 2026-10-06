@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site no GitHub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+            color: #e6edf3;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 1px solid #30363d;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: #58a6ff;
+        }
+
+        .subtitulo {
+            color: #8b949e;
+            font-size: 1.1rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .sobre, .projetos, .contato {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        .sobre:hover, .projetos:hover, .contato:hover {
+            transform: translateY(-5px);
+            border-color: #58a6ff;
+        }
+
+        h2 {
+            color: #58a6ff;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #d1d9e0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #21262d;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #79c0ff;
+            text-decoration: underline;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            margin-top: 1rem;
+            background-color: #238636;
+            color: white;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background-color: #2ea043;
+            color: white;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>👋 Bem-vindo ao Meu Espaço</h1>
+        <p class="subtitulo">Site hospedado no GitHub Pages</p>
+    </header>
+
+    <main>
+        <section class="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um desenvolvedor(a) apaixonado(a) por tecnologia. Este é o meu site criado para apresentar meus projetos e compartilhar ideias.</p>
+            <p>Este site está publicado diretamente pelo GitHub, usando o GitHub Pages — gratuito e rápido!</p>
+        </section>
+
+        <section class="projetos">
+            <h2>Meus Projetos</h2>
+            <ul>
+                <li><strong>Projeto 1:</strong> Site pessoal com HTML, CSS e JavaScript — <a href="#">Ver repositório</a></li>
+                <li><strong>Projeto 2:</strong> Aplicação web interativa — <a href="#">Ver repositório</a></li>
+                <li><strong>Projeto 3:</strong> Ferramenta de automação — <a href="#">Ver repositório</a></li>
+            </ul>
+        </section>
+
+        <section class="contato">
+            <h2>Contato</h2>
+            <p>Quer colaborar ou conversar? Me encontre nas redes:</p>
+            <a href="https://github.com/seu-usuario" class="btn">Visitar meu GitHub</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 — Feito com 💙 e hospedado no GitHub Pages</p>
+    </footer>
+</body>
+</html>
